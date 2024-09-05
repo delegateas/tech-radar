@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="description" content="Delegate Tech Radar">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Delegate Tech Radar</title>
+<link rel="shortcut icon" href="favicon.ico">
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="radar.js"></script>
+
+<link rel="stylesheet" href="radar.css">
+</head>
+
+<body>
+
+<svg id="radar"></svg>
+
+<script>
+fetch('./config.json').then(function(response) {
+  return response.json();
+}).then(function(data) {
+  radar_visualization({
+    repo_url: "https://github.com/zalando/tech-radar", // TODO
+    title: "Delegate Tech Radar",
+    date: data.date,
+    quadrants: [
+      { name: "Languages" },
+      { name: "Infrastructure" },
+      { name: "Datastores" },
+      { name: "Data Management" },
+    ],
+    rings: [
+      { name: "ADOPT", color: "#5ba300" },
+      { name: "TRIAL", color: "#009eb0" },
+      { name: "ASSESS", color: "#c7ba00" },
+      { name: "HOLD", color: "#e09b96" }
+    ],
+    entries: data.entries
+  });
+}).catch(function(err) {
+  console.log('Error loading config.json', err);
+});
+</script>
+
+</body>
+</html>
