@@ -23,14 +23,14 @@ fetch('./config.json').then(function(response) {
   return response.json();
 }).then(function(data) {
   radar_visualization({
-    repo_url: "https://github.com/zalando/tech-radar", // TODO
+    repo_url: "https://github.com/delegateas/tech-radar",
     title: "Delegate Tech Radar",
     date: data.date,
     quadrants: [
-      { name: "Languages" },
+      { name: "Cloud Services" },
+      { name: "Tooling" },
       { name: "Infrastructure" },
-      { name: "Datastores" },
-      { name: "Data Management" },
+      { name: "Frameworks" },
     ],
     rings: [
       { name: "ADOPT", color: "#5ba300" },
