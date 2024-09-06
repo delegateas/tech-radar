@@ -1,0 +1,18 @@
+{
+    "entries": [
+        {
+            "quadrant": 0,
+            "ring": 0,
+            "label": "Azure Cloud Services",
+            "active": true,
+            "moved": 0
+          },
+          {
+            "quadrant": 0,
+            "ring": 0,
+            "label": "Dataverse",
+            "active": true,
+            "moved": 0
+          }
+    ]
+}

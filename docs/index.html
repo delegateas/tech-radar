@@ -19,30 +19,41 @@
 <svg id="radar"></svg>
 
 <script>
-fetch('./config.json').then(function(response) {
-  return response.json();
-}).then(function(data) {
-  radar_visualization({
-    repo_url: "https://github.com/delegateas/tech-radar",
-    title: "Delegate Tech Radar",
-    date: data.date,
-    quadrants: [
-      { name: "Cloud Services" },
-      { name: "Tooling" },
-      { name: "Infrastructure" },
-      { name: "Frameworks" },
-    ],
-    rings: [
-      { name: "ADOPT", color: "#5ba300" },
-      { name: "TRIAL", color: "#009eb0" },
-      { name: "ASSESS", color: "#c7ba00" },
-      { name: "HOLD", color: "#e09b96" }
-    ],
-    entries: data.entries
-  });
-}).catch(function(err) {
-  console.log('Error loading config.json', err);
-});
+  const urls = [
+    './Quadrants/Frameworks/frameworks.json',
+    './Quadrants/Infrastructure/infrastructure.json',
+    './Quadrants/Tooling/tooling.json',
+    './Quadrants/Cloud Services/cloudservices.json'
+  ];
+
+  const date = "Last updated: 2024.09" // Remember to update this when updating the entries
+
+  Promise.all(urls.map(url => fetch(url).then(response => response.json())))
+    .then(function(allData) {
+      const combinedEntries = allData.reduce((acc, data) => acc.concat(data.entries), []);
+
+      radar_visualization({
+        repo_url: "https://github.com/delegateas/tech-radar",
+        title: "Delegate Tech Radar",
+        date: date,
+        quadrants: [
+          { name: "Cloud Services" },
+          { name: "Tooling" },
+          { name: "Infrastructure" },
+          { name: "Frameworks" },
+        ],
+        rings: [
+          { name: "ADOPT", color: "#5ba300" },
+          { name: "TRIAL", color: "#009eb0" },
+          { name: "ASSESS", color: "#c7ba00" },
+          { name: "HOLD", color: "#e09b96" }
+        ],
+        entries: combinedEntries
+      });
+    })
+    .catch(function(err) {
+      console.log('Error loading entries.json files', err);
+    });
 </script>
 
 </body>

@@ -1,0 +1,53 @@
+{
+    "entries": [
+        {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "OpenAPI (Swagger)",
+            "active": true,
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "SQL Server Data Tools",
+            "active": true,
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 2,
+            "label": "Playwright",
+            "active": true,
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 3,
+            "label": "XrmToolKit",
+            "active": true,
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "Cypress",
+            "active": true,
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "Daxif",
+            "active": true,
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "Backstage.io",
+            "active": true,
+            "moved": 0
+          }
+    ]
+}

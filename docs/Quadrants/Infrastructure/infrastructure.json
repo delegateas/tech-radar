@@ -1,0 +1,25 @@
+{
+    "entries": [
+        {
+          "quadrant": 2,
+          "ring": 0,
+          "label": "Azure Resource Manager",
+          "active": true,
+          "moved": 0
+        },
+        {
+          "quadrant": 2,
+          "ring": 0,
+          "label": "Bicep",
+          "active": true,
+          "moved": 0
+        },
+        {
+          "quadrant": 2,
+          "ring": 0,
+          "label": "Docker",
+          "active": true,
+          "moved": 0
+        }
+    ]
+}
