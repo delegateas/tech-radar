@@ -9,7 +9,7 @@ If you find a bug, please check the [issues](../../issues) to see if it’s alre
 
 ## Suggesting Enhancements
 
-To suggest improvements or new technologies:
+To suggest new technologies or edit current ones:
 - Open an issue with:
   - The technology name.
   - Category (What quadrant it belongs in).
