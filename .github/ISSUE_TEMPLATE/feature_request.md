@@ -1,20 +1,16 @@
----
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
-assignees: ''
+Please include the following information:
 
----
+## Technology Name
+- Name of the technology
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+## Category (Quadrant)
+- Which quadrant does this technology belong to? (Infrastructure, Frameworks, Tooling, or Cloud Services)
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+## Proposed Stage
+- Stage: Adopt, Trial, Assess, or Hold.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+## Why It’s Important
+- What problem does it solve? (How is it better/worse than other technologies)
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+## Additional Context (Optional)
+- Any relevant links, documentation, or case studies.
