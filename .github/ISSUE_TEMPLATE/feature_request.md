@@ -1,3 +1,11 @@
+---
+name: "Edit technology list"
+about: "Suggest a new technology or edit an existing for the Tech Radar"
+title: "[Change in technology]"
+labels: ""
+assignees: ""
+---
+
 Please include the following information:
 
 ## Technology Name
