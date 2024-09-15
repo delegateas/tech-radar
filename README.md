@@ -1,6 +1,6 @@
 # Tech Radar for Delegate
 
-Welcome to the **Tech Radar** project for **Delegate**! This project helps us track and assess technologies, frameworks, and tools that are relevant to our organization. Inspired by the [Zalando Tech Radar](https://github.com/zalando/tech-radar/tree/master), this radar visualizes technology decisions to help guide our engineering and business teams. It currently organizes technologies into four categories, which are programming/scripting languages, frameworks, tooling, and cloud services. 
+Welcome to the **Tech Radar** project for **Delegate**, https://tech.delegate.cloud! This project helps us track and assess technologies, frameworks, and tools that are relevant to our organization. Inspired by the [Zalando Tech Radar](https://github.com/zalando/tech-radar/tree/master), this radar visualizes technology decisions to help guide our engineering and business teams. It currently organizes technologies into four categories, which are programming/scripting languages, frameworks, tooling, and cloud services. 
 
 ## Table of Contents
 1. [Purpose](#purpose)
