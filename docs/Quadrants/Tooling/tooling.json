@@ -1,53 +1,95 @@
 {
-    "entries": [
-        {
-            "quadrant": 1,
-            "ring": 0,
-            "label": "OpenAPI (Swagger)",
-            "active": true,
-            "moved": 0
-          },
-          {
-            "quadrant": 1,
-            "ring": 0,
-            "label": "SQL Server Data Tools",
-            "active": true,
-            "moved": 0
-          },
-          {
-            "quadrant": 1,
-            "ring": 2,
-            "label": "Playwright",
-            "active": true,
-            "moved": 0
-          },
-          {
-            "quadrant": 1,
-            "ring": 3,
-            "label": "XrmToolKit",
-            "active": true,
-            "moved": 0
-          },
-          {
-            "quadrant": 1,
-            "ring": 0,
-            "label": "Cypress",
-            "active": true,
-            "moved": 0
-          },
-          {
-            "quadrant": 1,
-            "ring": 0,
-            "label": "Daxif",
-            "active": true,
-            "moved": 0
-          },
-          {
-            "quadrant": 1,
-            "ring": 0,
-            "label": "Backstage.io",
-            "active": true,
-            "moved": 0
-          }
-    ]
+  "entries": [
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Visual Studio Code",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Visual Studio",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Jetbrains Rider",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "GitHub Copilot",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Azure DevOps",
+      "active": true,
+      "moved": 0
+    },    
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "OpenAPI (Swagger)",
+      "active": true,
+      "moved": 0
+    },   
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Playwright",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 3,
+      "label": "XrmToolKit",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Docker Desktop",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 2,
+      "label": "Rancher Desktop",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Daxif",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "ATC.NET",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Spetlr",
+      "active": true,
+      "moved": 0
+    }
+  ]
 }

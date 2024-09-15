@@ -1,18 +1,53 @@
 {
-    "entries": [
-          {
-            "quadrant": 3,
-            "ring": 0,
-            "label": "Blazor",
-            "active": true,
-            "moved": 0
-          },
-          {
-            "quadrant": 3,
-            "ring": 0,
-            "label": "Umbraco",
-            "active": true,
-            "moved": 0
-          }
-    ]
+  "entries": [
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "React",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "ASP.NET",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Fluent UI",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Tailwind CSS",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 1,
+      "label": "Blazor",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 1,
+      "label": "Umbraco",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 3,
+      "label": "Angular",
+      "active": true,
+      "moved": 0
+    }
+  ]
 }
