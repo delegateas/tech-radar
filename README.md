@@ -14,7 +14,7 @@ The goal of the Tech Radar is to provide a snapshot of technologies our organiza
 ## How It Works
 
 The Tech Radar categorizes technologies into quadrants and assigns them to stages based on their maturity and adoption within our organization:
-- **Quadrants** represent different categories of technology (e.g., Infrastructure, Frameworks, Tooling, Cloud Services).
+- **Quadrants** represent different categories of technology (e.g., Programming/scripting languages, Frameworks, Tooling, Cloud Services).
 - **Stages** reflect the technology's current status:
   - **Adopt**: We are actively using this technology and recommend it.
   - **Trial**: We encourage testing this technology in limited scope.

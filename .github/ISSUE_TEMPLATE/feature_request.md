@@ -12,7 +12,7 @@ Please include the following information:
 - Name of the technology
 
 ## Category (Quadrant)
-- Which quadrant does this technology belong to? (Infrastructure, Frameworks, Tooling, or Cloud Services)
+- Which quadrant does this technology belong to? (Programming/scripting languages, Frameworks, Tooling, Cloud Services)
 
 ## Proposed Stage
 - Stage: Adopt, Trial, Assess, or Hold.
